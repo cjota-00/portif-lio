@@ -455,6 +455,28 @@ section .especialidades h1{
     display: flex;
     align-items: center;
 }
+.projeto-content{
+    margin-top: 20px;
+
+}
+
+
+.projetos .text-center{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(---color-d);
+}
+.projeto-img img{
+    border-left: 4px solid var(---color-d);
+    background-position: center;
+    background-size: cover;
+}
+.projeto-content-desc h1{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
 
 /*ASIDE CONTATO*/
 
