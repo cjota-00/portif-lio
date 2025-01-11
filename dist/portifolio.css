@@ -461,11 +461,20 @@ section .especialidades h1{
 }
 
 
-.projetos .text-center{
+.projetos .text-center,
+.projetos-md .text-center{
     text-align: center;
     font-size: 30px;
     font-weight: 600;
     color: var(---color-d);
+}
+.img-md{
+    filter: blur(2px);
+}
+.img-md:hover{
+    filter: blur(0);
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
 }
 .projeto-img img{
     border-left: 4px solid var(---color-d);
@@ -559,4 +568,19 @@ aside .close-contact{
     font-weight: 600;
     color: #0D0D0D;
     cursor: pointer;
+}
+/*FOOTER*/
+footer{
+    background-color: #555454;
+}
+footer h1{
+    color: var(---color-t);
+    font-size: 35px;
+    font-family: var(---font-g);
+}
+footer h1 span{
+    color: var(---color-d);
+}
+.social-midia img{
+    width: 40px;
 }
